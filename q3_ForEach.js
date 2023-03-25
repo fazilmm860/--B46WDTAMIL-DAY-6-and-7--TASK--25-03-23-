@@ -8,7 +8,7 @@ request.onload = function () {
             console.log(`Name: ${country.name.common}`);
             console.log(`Region: ${country.capital}`);
             console.log(country.flags.png);
-            // console.log(`Population: ${ country.population }`);
+
             console.log('----------------------------------------');
 
 
