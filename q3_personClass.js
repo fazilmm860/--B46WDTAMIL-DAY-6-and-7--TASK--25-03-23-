@@ -30,12 +30,9 @@ class Person {
 
 }
 
-person1 = new Person()
+person1 = new Person('Mohamed', 'Fazil', 24, 'fazilmm860@gmail.com')
 
-person1.setFirstName('Mohamed');
-person1.setLastName('Fazil');
-person1.setAge(24);
-person1.setEmail('fazilmm860@gmail.com');
+
 
 
 const fullName = person1.getFullName();
@@ -45,3 +42,5 @@ const email = person1.getEmail();
 console.log(`${fullName},
 ${age} ,
 ${email}`);
+
+
